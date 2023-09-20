@@ -12,7 +12,6 @@ def find_minimum(numbers):
 
     return minimum
 
-# Генеруємо рандомний список цілих чисел
 random_list = [random.randint(1, 10) for _ in range(5)]
 
 result = find_minimum(random_list)
